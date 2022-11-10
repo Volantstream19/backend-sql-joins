@@ -9,4 +9,4 @@ FROM
     JOIN film_actor ON film.film_id = film_actor.film_id
     JOIN actor on film_actor.actor_id = actor.actor_id
 WHERE
-    film.title = 'Airplane Sierra'
+    film.title = 'Airplane Sierra';
